@@ -105,7 +105,7 @@ export default function features() {
               </defs>
               <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
             </svg>
-            <Image
+            <img
               className="relative mx-auto"
               width={490}
               src="https://tailwindui.com/img/features/feature-example-1.png"
@@ -172,7 +172,7 @@ export default function features() {
                 </defs>
                 <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
               </svg>
-              <Image
+              <img
                 className="relative mx-auto"
                 width={490}
                 src="https://tailwindui.com/img/features/feature-example-2.png"
