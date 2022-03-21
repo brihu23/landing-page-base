@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
-import Description from './baseElements/description.tsx'
+import Description from './baseElements/Description.tsx'
 
 const transferFeatures = [
   {
