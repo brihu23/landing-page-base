@@ -47,7 +47,7 @@ const people = [
                   <div className="space-y-8 xl:space-y-10 relative">
                     <Image className="mx-auto h-32 w-32 rounded-full xl:w-56 xl:h-56" src={person.imageUrl} alt="" />
                     <div className="relative pt-1 space-y-2 xl:flex xl:items-center xl:justify-between">
-                    <Image className="absolute bottom-24 left-0 h-10 pb-4" src={person.logoBubbleUrl} />
+                    <Image className="absolute bottom-24 left-0 h-10 pb-4" src={person.logoBubbleUrl} alt=""/>
                       <div className="font-medium text-lg leading-6 space-y-1">
                         <h3 className="text-primary text-lg font-semibold">{person.name}</h3>
                         <p className="text-secondary text-xs pb-2">{person.role}</p>
