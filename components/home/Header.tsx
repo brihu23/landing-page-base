@@ -2,6 +2,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {ChevronRightIcon} from '@heroicons/react/outline'
+import Image from 'next/image'
 
 const navigation = [
   { name: 'Why {{productName}}?', href: '#benefits' },
@@ -24,7 +25,7 @@ export default function Header() {
               <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span className="sr-only">Workflow</span>
-                  <img
+                  <Image
                     className="h-8 w-auto sm:h-10"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                     alt=""
@@ -75,7 +76,7 @@ export default function Header() {
             <div className="rounded-lg shadow-md bg-bgPrimary  ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <img
+                  <Image
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                     alt=""
@@ -158,7 +159,7 @@ export default function Header() {
               <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
-                  <img
+                  <Image
                     className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="https://tailwindui.com/img/component-images/cloud-illustration-indigo-400.svg"
                     alt=""
